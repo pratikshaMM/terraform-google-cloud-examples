@@ -6,7 +6,7 @@ provider "google" {
 
 # Create a Google Compute instance
 resource "google_compute_instance" "example" {
-  name          = "example_vm"
+  name          = "example-vm"
   machine_type  = "f1-micro"
   zone          = "us-central1-c"
   
